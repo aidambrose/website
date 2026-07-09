@@ -1,0 +1,118 @@
+/* Style the entire page background and font */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #61605f;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #2c3e50;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+h1 {
+    font-size: 42px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    text-align: left;
+    left: 175px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.link_border {
+    background-color: #413b49;
+    width: 300px;
+    height: 800px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.link_border a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.socials {
+    background-color: rgb(50, 54, 54);
+    width: 1500px;
+    height: 150px;
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.socials p {
+    margin: 0;
+}
+
+.link_border a:hover {
+    background-color: rgb(96, 146, 113);
+}
+
+.socials a {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 0 35px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.blocks .socials a i {
+    display: block;
+    font-size: 20px !important;
+    margin-bottom: 8px;
+    margin-right: 0;
+}
+
+.socials a:hover {
+    background-color: rgb(96, 146, 113);
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+.image-container img{
+    width:  100%;
+    max-width: 600px;
+    height:auto;
+}
